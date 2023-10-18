@@ -23,7 +23,7 @@ import { signOut, useSession } from 'next-auth/react';
 import { toast } from './use-toast';
 import Link from 'next/link';
 import { ToastAction } from './toast';
-import { generateInitials } from '@/utils/generateInitials';
+import { generateInitials } from '@/utils/generate-initals';
 
 export const UserMenu = () => {
   const { data: session } = useSession();
@@ -60,9 +60,9 @@ export const UserMenu = () => {
           </DropdownMenuSub>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        {session.user.github && (
+        {session.user.githubUrl && (
           <DropdownMenuItem>
-            <Link href={session.user.github} target='_blank'>
+            <Link href={session.user.githubUrl} target='_blank'>
               Github
             </Link>
           </DropdownMenuItem>

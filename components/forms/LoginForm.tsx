@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import { useForm } from 'react-hook-form';
 
-import { LoginFormSchema, TLoginSchema } from '@/lib/schemas/authenticationFormSchemas';
+import { LoginFormSchema, TLoginFormSchema } from '@/lib/schemas/Authschema';
 
 import { Button } from '../ui/button';
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '../ui/form';
@@ -16,7 +16,7 @@ import { toast } from '../ui/use-toast';
 
 export const LoginForm = () => {
   const router = useRouter();
-  const form = useForm<TLoginSchema>({
+  const form = useForm<TLoginFormSchema>({
     resolver: zodResolver(LoginFormSchema),
     defaultValues: {
       email: '',

@@ -1,6 +1,6 @@
 'use client';
 
-import { CreateLaboModal } from '@/components/modals/CreateLaboModal';
+import { CreateLaboModal } from '@/components/modals/create-lab';
 import { useEffect, useState } from 'react';
 
 export const ModalProvider = () => {

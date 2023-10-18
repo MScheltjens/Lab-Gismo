@@ -4,7 +4,7 @@ import { Metadata } from 'next/types';
 import { ReactNode } from 'react';
 
 // import { NextIntlClientProvider } from 'next-intl';
-import { Providers } from '@/providers/Providers';
+import { Providers } from '@/providers/providers';
 
 const inter = Inter({ subsets: ['latin'] });
 

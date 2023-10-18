@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { LoginForm } from '@/components/forms/LoginForm';
+import { LoginForm } from '@/components/forms/loginform';
 
 export default function LoginPage() {
   const t = useTranslations('LoginPage');

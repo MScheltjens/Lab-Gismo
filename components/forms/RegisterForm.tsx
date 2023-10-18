@@ -4,8 +4,8 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 
-import { RegisterFormSchema, TRegisterFormSchema } from '@/lib/schemas/authenticationFormSchemas';
-import { registerUser } from '@/serverActions/authentication';
+import { RegisterFormSchema, TRegisterFormSchema } from '@/lib/schemas/Authschema';
+import { registerUser } from '@/server-actions/authentication';
 
 import { Button } from '../ui/button';
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '../ui/form';

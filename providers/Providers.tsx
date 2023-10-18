@@ -7,7 +7,7 @@ import { ReactNode } from 'react';
 
 import { Toaster } from '@/components/ui/toaster';
 
-import { ModalProvider } from './ModalProvider';
+import { ModalProvider } from './modalprovider';
 
 type Props = {
   children: ReactNode;

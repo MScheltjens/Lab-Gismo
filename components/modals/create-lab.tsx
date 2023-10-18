@@ -4,8 +4,8 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 
-import { useCreateLabo } from '@/hooks/useCreateLabo';
-import { createLaboratory } from '@/serverActions/createLaboratory';
+import { useCreateLabo } from '@/hooks/use-create-lab';
+import { createLab } from '@/server-actions/create-lab';
 
 import { Modal } from '../Modal';
 import { Button } from '../ui/button';
@@ -26,7 +26,7 @@ export const CreateLaboModal = () => {
   });
 
   const handleCreateLabo = async (formData: FormData) => {
-    const result = await createLaboratory(formData.get('name') as string);
+    const result = await createLab(formData.get('name') as string);
     if (result.success) {
       toast({ variant: 'default', title: 'Success!' });
       form.reset();

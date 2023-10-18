@@ -2,7 +2,7 @@
 
 // import { getAuthServerSession } from '@/utils/serverSession';
 
-// export const createLaboratory = async (name: string) => {
+// export const createLab= async (name: string) => {
 //   try {
 //     const alreadyExists = await prismadb.laboratory.findFirst({
 //       where: { name },

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import { RegisterForm } from '@/components/forms/RegisterForm';
+import { RegisterForm } from '@/components/forms/registerform';
 
 export default function RegisterPage() {
   const t = useTranslations('RegisterPage');

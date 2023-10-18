@@ -1,4 +1,4 @@
-import { UserMenu } from './ui/UserMenu';
+import { UserMenu } from './ui/user-menu';
 
 export const Header = async () => {
   return (
