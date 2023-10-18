@@ -1,26 +1,13 @@
-import '@/styles/globals.css'
+import '../styles/globals.css';
 
-import { ClerkProvider } from '@clerk/nextjs'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { ReactNode } from 'react';
 
-const inter = Inter({ subsets: ['latin'] })
+type Props = {
+  children: ReactNode;
+};
 
-export const metadata: Metadata = {
-  title: 'Lab Gismo',
-  description: 'Create your own creative lab',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <ClerkProvider>
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-    </ClerkProvider>
-  )
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+export default function RootLayout({ children }: Props) {
+  return children;
 }

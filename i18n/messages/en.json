@@ -1,0 +1,40 @@
+{
+  "IndexPage": {
+    "title": "Welcome at Lab Gismo!",
+    "description": ""
+  },
+  "LocaleLayout": {
+    "title": "Lab Gismo",
+    "description": ""
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": ""
+  },
+  "LoginPage": {
+    "title": "Login",
+    "description": ""
+  },
+  "RegisterPage": {
+    "title": "Register",
+    "description": ""
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "Navigation": {
+    "home": "Home",
+    "login": "Login",
+    "Logout": "Logout",
+    "register": "Register",
+    "dashboard": "Dashboard"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
+  }
+}

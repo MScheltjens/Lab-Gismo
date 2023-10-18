@@ -1,0 +1,39 @@
+{
+  "IndexPage": {
+    "title": "Welkom bij Lab Gismo!",
+    "description": ""
+  },
+  "LocaleLayout": {
+    "title": "Lab Gismo",
+    "description": ""
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": ""
+  },
+  "LoginPage": {
+    "title": "Login"
+  },
+  "RegisterPage": {
+    "title": "Registreer",
+    "description": ""
+  },
+  "Navigation": {
+    "home": "Startpagina",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Registreren",
+    "dashboard": "Dashboard"
+  },
+  "Error": {
+    "title": "Iets liep fout!",
+    "description": ""
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "Kijk alstublieft het adres in de browser na of gebruik de navigatie om naar een gekende pagina te gaan."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Verander naar {locale, select, de {Duits} en {Engels} andere {unknown}}"
+  }
+}

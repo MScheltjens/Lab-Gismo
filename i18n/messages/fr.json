@@ -1,0 +1,40 @@
+{
+  "IndexPage": {
+    "title": "Bienvenue a Lab Gismo!",
+    "description": ""
+  },
+  "LocaleLayout": {
+    "title": "Lab Gismo",
+    "description": ""
+  },
+  "DashboardPage": {
+    "title": "Dashboard",
+    "description": ""
+  },
+  "LoginPage": {
+    "title": "Se connecter",
+    "description": ""
+  },
+  "RegisterPage": {
+    "title": "Enregistrement",
+    "description": ""
+  },
+  "Navigation": {
+    "home": "Page d'accueil",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "register": "Registrer",
+    "dashboard": "Tableau-de-bord"
+  },
+  "Error": {
+    "title": "Quelque chose s'est mal passé !",
+    "description": "<p>Nous avons malheureusement rencontré une erreur.</p><p>Vous pouvez essayer de <retry>recharger la page</retry> que vous visitiez.</p>"
+  },
+  "NotFound": {
+    "title": "Page non trouvée",
+    "description": "Veuillez vérifier la barre d'adresse du navigateur ou utiliser la navigation pour accéder à une page connue."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Change a {locale, select, de {Allemand} en {Anglais} autres {unknown}}"
+  }
+}
