@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": ["simple-import-sort"],
+  "extends": ["next", "prettier", "next/core-web-vitals", "eslint:recommended", "eslint-config-prettier", "plugin:@typescript-eslint/recommended", "eslint-config-next"],
+  "parser": "@typescript-eslint/parser",
+  "root": true,
+  "ignorePatterns": ["node_modules/*", ".next/*", ".out/*", "!.prettierrc.js", "!.eslintrc.js", "components/ui"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "react-hooks/rules-of-hooks": "error"
+  }
 }
